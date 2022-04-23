@@ -1,0 +1,85 @@
+.formulario{
+    display: block;
+    padding: 30px 0px 10px 35px;
+    width: 100%;
+    background-color:#272727;
+    color: white;
+
+}
+
+input[type=submit] {
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    color: black;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    width: 100%;
+}
+input[type=submit]:hover{
+    border-color: #F88B86;
+    cursor: pointer;
+}
+.formulario p{
+    color: white;
+}
+input[type=password],input[type=text],input[type=email],input[type=number]{
+    
+    border-style: solid;
+    border-color: gray;
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+}
+input[type=password]:focus{
+    border: 3px solid white;
+    background-color: black;
+} 
+input[type=text]:focus{
+    border: 3px solid white;
+    background-color: black;
+} 
+input[type=email]:focus{
+    border: 3px solid white;
+    background-color: black;
+} 
+
+input[type=number]:focus{
+    border: 3px solid white;
+    background-color: black;
+}
+input[type=submit]{
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    
+}
+.registro{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    width: 80%;
+}
+.registro_tarjeta{
+    background-size: 100% 100%;
+    background:url("../images/f4.jpg");
+    border-style: solid;
+    border-right: black;
+    border-bottom: black;
+    border-top: black;
+    border-color: aliceblue;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+label{
+    display: flex;
+    color: white;
+}
+body{
+    background-color: black;
+}
