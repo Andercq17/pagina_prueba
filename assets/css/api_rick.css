@@ -30,12 +30,13 @@
   }
   .contenedor_s{
       display: flex;
+      border-style:solid;
+      border-radius:20px 0px 0px 20px;
+      border-color: black;   
     }
-  .contenedor_s:hover{
-    border-style: solid;
-    border-radius:25px 0px 0px 30px;
-    border-color: black;:
-  }
+    .contenedor_s:hover{
+        border-color: lightblue;
+    }
   .contenedor_image{
     z-index: 100px;
     width:400px;
@@ -71,9 +72,16 @@
     -moz-box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.67);
     box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.67);
   }
-h2{
+  h1{
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  h1:hover{
+      color: lightblue;
+  }
+  h2{
     color: black;
-}  
+  }  
   #fondoPerfil img{
     position: relative;
     left: -45px;
