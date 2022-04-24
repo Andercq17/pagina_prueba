@@ -4,10 +4,8 @@
     width: 100%;
     background-color:#272727;
     color: white;
-
 }
-
-input[type=submit] {
+input[type=submit]{
     border: 3px;
     border-style: solid;
     border-color: black;
@@ -23,39 +21,30 @@ input[type=submit]:hover{
 .formulario p{
     color: white;
 }
-input[type=password],input[type=text],input[type=email],input[type=number]{
-    
+input[type=password],input[type=text],input[type=email],input[type=number],input[type=submit]{
     border-style: solid;
     border-color: gray;
     background-color: black;
     color: white;
-    width: 100%;
+    width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
-
 }
 input[type=password]:focus{
     border: 3px solid white;
     background-color: black;
-} 
+}
 input[type=text]:focus{
     border: 3px solid white;
     background-color: black;
-} 
+}
 input[type=email]:focus{
     border: 3px solid white;
     background-color: black;
-} 
-
+}
 input[type=number]:focus{
     border: 3px solid white;
     background-color: black;
-}
-input[type=submit]{
-    width: 80%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    
 }
 .registro{
     display: flex;
@@ -72,12 +61,12 @@ input[type=submit]{
     border-bottom: black;
     border-top: black;
     border-color: aliceblue;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
 label{
-    display: flex;
+    display: block;
     color: white;
 }
 body{
