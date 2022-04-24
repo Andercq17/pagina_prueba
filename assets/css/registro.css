@@ -62,6 +62,7 @@ input[type=number]:focus{
     border-top: black;
     border-color: aliceblue;
     background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
 }
