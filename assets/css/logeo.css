@@ -15,7 +15,7 @@
     background-color:#272727;
     color: white;
 }
-input[type=submit]{
+input[type=submit],[type=button]{
     border: 3px;
     border-style: solid;
     border-color: black;
@@ -25,6 +25,10 @@ input[type=submit]{
     width: 100%;
 }
 input[type=submit]:hover{
+    border-color: #F88B86;
+    cursor: pointer;
+}
+input[type=button]:hover{
     border-color: #F88B86;
     cursor: pointer;
 }
@@ -41,7 +45,7 @@ input[type=submit]:hover{
     text-shadow: 0 0 30px #fff;
 
 }
-input[type=password],input[type=text],input[type=submit]{
+input[type=password],input[type=text],input[type=submit],input[type=button]{
     border-style: solid;
     border-color: gray;
     background-color: black;
