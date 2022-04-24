@@ -8,6 +8,13 @@
     background-color:#272727;
     color: white;
 }
+.formularior{
+    display: block;
+    padding: 50px 0px 50px 50px;
+    width: 100%;
+    background-color:#272727;
+    color: white;
+}
 input[type=submit]{
     border: 3px;
     border-style: solid;
@@ -70,6 +77,22 @@ input[type=text]:focus{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
+}
+.registro_tarjetar{
+    background-size: 100% 100%;
+    background:url("../images/f6.jpg");
+    border-style: solid;
+    border-right: black;
+    border-bottom: black;
+    border-top: black;
+    border-color: aliceblue;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.redireccion_input{
+    border-radius: 20px;
 }
 label{
     display: block;
