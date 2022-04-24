@@ -78,37 +78,37 @@
         </div>
     </header><br><br><br>
     <div class="registro">
-        <form class="formulario" action="">
+        <form class="formulario" id="formulario" action="">
             <label for="">
-                <p>Nombre:</p> <input type="text" placeholder="Ingresa Nombre" required>    
+                <p>Nombre:</p> <input type="text" placeholder="Ingresa Nombre" id="nombre" required>    
             </label>
             <br><br>
             <label for="">
-                <p>Apellido:</p><input type="text" placeholder="Ingresa Apellido" required>
+                <p>Apellido:</p><input type="text" placeholder="Ingresa Apellido" id="apellido" required>
             </label>
             <br><br>
             <label for=""><p>Correo:</p>
-                <input type="email" placeholder="Ingresa Correo electrónico" required>
+                <input type="email" placeholder="Ingresa Correo electrónico" id="correo" required>
             </label>
             <br><br>
             <label for="">
-                <p>Celular:</p><input type="number" placeholder="Ingresa Celular" required>
+                <p>Celular:</p><input type="number" placeholder="Ingresa Celular" id="celular" pattern="[0-9]+" required>
             </label>
             <br><br>
             <label for="">
-                <p>Usuario:</p><input type="text" placeholder="Ingresa Usuario" pattern="^[a-zA-Z][a-zA-Z0-9]{3,10}$" title="Un nombre de usuario apropiado debe comenzar con una letra, contener letras, números, guiones bajos y puntos, y tener entre 3 y 15 caracteres de longitud" required>
+                <p>Usuario:</p><input type="text" placeholder="Ingresa Usuario" id="usuario" pattern="^[a-zA-Z][a-zA-Z0-9]{3,10}$" title="Un nombre de usuario apropiado debe comenzar con una letra, contener letras, números, guiones bajos y puntos, y tener entre 3 y 15 caracteres de longitud" required>
             </label>
             <br><br>
             <label for="">
-                <p>Contraseña:</p><input type="password" placeholder="Ingresa contraseña" pattern="[a-zA-Z0-9]{6,15}" title="Una contraseña válida debe estar compuesta por letras y/o números y tener una longitud entre 6 y 15 caracteres" required>
+                <p>Contraseña:</p><input type="password" placeholder="Ingresa contraseña" id="contraseña" pattern="[a-zA-Z0-9]{6,15}" title="Una contraseña válida debe estar compuesta por letras y/o números y tener una longitud entre 6 y 15 caracteres" required>
             </label>
             <br><br>
             <label for="">
-                <p>Confirmar contraseña:</p><input type="password" placeholder="Confirma contraseña" required>
+                <p>Confirmar contraseña:</p><input type="password" placeholder="Confirma contraseña" id="c_contraseña" required>
             </label>
             <br><br>
             <label for="">
-                <input type="submit" value="Enviar datos" disabled>
+                <input type="button" value="Enviar datos" id="enviar">
             </label>
         </form>
         <div class="registro_tarjeta">
@@ -162,8 +162,8 @@
             </div>
         </div>
     </footer>
-
-
+    <script src="assets/js/registro.js"></script>
+    <script src="assets/js/md5.min.js"></script>
 </body>
 
 </html>

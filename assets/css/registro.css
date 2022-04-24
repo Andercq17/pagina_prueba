@@ -5,7 +5,7 @@
     background-color:#272727;
     color: white;
 }
-input[type=submit]{
+input[type=button]{
     border: 3px;
     border-style: solid;
     border-color: black;
@@ -14,14 +14,14 @@ input[type=submit]{
     margin: 4px 2px;
     width: 100%;
 }
-input[type=submit]:hover{
+input[type=button]:hover{
     border-color: #F88B86;
     cursor: pointer;
 }
 .formulario p{
     color: white;
 }
-input[type=password],input[type=text],input[type=email],input[type=number],input[type=submit]{
+input[type=password],input[type=text],input[type=email],input[type=number],input[type=button]{
     border-style: solid;
     border-color: gray;
     background-color: black;
