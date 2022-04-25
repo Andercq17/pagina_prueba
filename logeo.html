@@ -83,15 +83,15 @@
         <div class="registro">
             <form class="formulario" action="">
                 <label for="">
-                    <p>Usuario:</p><input type="text" placeholder="Ingresa Usuario" pattern="^[a-zA-Z][a-zA-Z0-9]{3,10}$" title="Un nombre de usuario apropiado debe comenzar con una letra, contener letras, números, guiones bajos y puntos, y tener entre 3 y 15 caracteres de longitud" required>
+                    <p>Usuario:</p><input type="text" placeholder="Ingresa Usuario" id="usuario" pattern="^[a-zA-Z][a-zA-Z0-9]{3,10}$" title="Un nombre de usuario apropiado debe comenzar con una letra, contener letras, números, guiones bajos y puntos, y tener entre 3 y 15 caracteres de longitud" required>
                 </label>
                 <br><br>
                 <label for="">
-                    <p>Contraseña:</p><input type="password" placeholder="Ingresa contraseña" pattern="[a-zA-Z0-9]{6,15}" title="Una contraseña válida debe estar compuesta por letras y/o números y tener una longitud entre 6 y 15 caracteres" required>
+                    <p>Contraseña:</p><input type="password" placeholder="Ingresa contraseña" id="contraseña" pattern="[a-zA-Z0-9]{6,15}" title="Una contraseña válida debe estar compuesta por letras y/o números y tener una longitud entre 6 y 15 caracteres" required>
                 </label>
                 <br><br>
                 <label for="">
-                    <input type="submit" value="Enviar datos" disabled>
+                    <input type="button" id="btn" value="Enviar datos">
                 </label>
             </form>
             <div class="registro_tarjeta">
@@ -99,6 +99,13 @@
     
         </div>
     
+    </div>
+    <div id="ventana" class="ligthbox hidden">
+        <div class="contenido-ventana">
+            <h1>Has iniciado sesión</h1>
+            <p>Ya puedes usar la pagina con comodidad</p>
+            <button type="button" id="btn_cerrar_modal">Ok</button>
+        </div>
     </div>
 
     <footer class="w3l-footer-29-main">
@@ -148,7 +155,8 @@
         </div>
     </footer>
 
-
+    <script src="assets/js/login.js"></script>
+    <script src="assets/js/md5.min.js"></script>
 </body>
 
 </html>
