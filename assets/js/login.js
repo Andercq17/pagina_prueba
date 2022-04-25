@@ -19,6 +19,6 @@ function abrirVentana(){
 	ventana.classList.remove("hidden");
 }
 
-function cerrarVentana(evento){
-	location.href = "index.html";
+function cerrarVentana(){
+	location.href = "home.html";
 }
