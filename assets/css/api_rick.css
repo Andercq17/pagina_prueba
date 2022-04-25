@@ -2,8 +2,11 @@
 #contenedor_principal{
     width:1200px;
     margin-top: 200px;
+    padding-top: 40px;
+
     padding-bottom: 40px;
     margin: 100px auto;
+    margin-top: 100px;
   }
   #contenedor_principal{
     display:flex;
@@ -86,3 +89,6 @@
     position: relative;
     left: -45px;
   }
+.ubicacion{
+    display: block;
+}

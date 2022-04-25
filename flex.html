@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
 
@@ -5,7 +7,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Photogenic - Photo Gallery Category Bootstrap Responsive Website Template - Home : W3Layouts</title>
+    <title>Photogenic - Photo Gallery Category Bootstrap Responsive Website Template - Contact Us : W3Layouts</title>
     <!-- google-fonts -->
     <link href="//fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap"
         rel="stylesheet">
@@ -16,9 +18,19 @@
     <link rel="stylesheet" href="assets/css/style-starter.css">
     <link rel="stylesheet" href="assets/css/btn_wpp.css">
     <link rel="stylesheet" href="assets/css/api_rick.css">
+    
 </head>
 
 <body>
+    
+
+    <a href="https://wa.me/+573217475876" target="_blank">
+        <img src="https://icons.iconarchive.com/icons/martz90/circle/256/whatsapp-icon.png" id="btn_whatsapp" alt="">
+    </a>
+    <a onclick="javascript:location.href='home.html'" target="_blank">
+        <img src="https://icons.iconarchive.com/icons/martz90/circle/64/camera-icon.png" id="btn_home" alt="">
+    </a>
+    <!--header-->
     <header id="site-header" class="fixed-top">
         <div class="container">
             <nav class="navbar navbar-expand-lg stroke">
@@ -31,7 +43,6 @@
     <a class="navbar-brand" href="#index.html">
         <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
     </a> -->
-    
                 <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
                     data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -40,20 +51,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="navbar-nav mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="flex.html">Flex</a>
-                        </li>
-                    </ul>
+                    <ul class="navbar-nav mx-lg-auto" id="menu"></ul>
                 </div>
                 <!-- search button -->
                 <div class="search-right ml-lg-3">
@@ -83,38 +81,40 @@
                 <!-- //toggle switch for light and dark theme -->
             </nav>
         </div>
-    </header>
+    </header><br><br><br>
+    <!--//header-->
 
-    <div id="contenedor_principal">
-        <div class="">
-          <img src="https://www.gustore.cl/temp/img/estampados/834/834_400x400.png" alt="">
-          <p>
-            Ejemplo que consume el api de Rick y Morty para llenar la información de la tarjeta que esta en la parte derecha, seleccione el código del personaje y luego presione el boton consultar.
-          </p>
-          <select name="" id="codigo" class="item_formulario"></select>
-          <input type="button" class="item_formulario" id="btnConsultar" value="Consultar">
-        </div>
-        <div class="contenedor_tarjeta">
-
-            <h1>Tarjeta de personaje</h1>
-           <div class="contenedor_s">
-                <div class="contenedor_image">
-                    <div class="fondo_circular" id="fotoPerfil"></div>
-                    <p id="codigo_personaje">id</p>
-                </div>
-                <div class="contenedor_descripcion">
-                    <h3>Nombre</h3>
-                    <span id="nombre_personaje">Nombre</span>
-                    <br><br>
-                    <h3>Estado</h3>
-                    <span id="estado_personaje">Nombre</span>
-                    <br><br>
-                    <h3>Genero</h3>
-                    <span id="genero_personaje">Nombre</span>
-                </div>
+    <div>
+        <div id="contenedor_principal">
+            <div class="">
+              <img src="https://www.gustore.cl/temp/img/estampados/834/834_400x400.png" alt="">
+              <p>
+                Ejemplo que consume el api de Rick y Morty para llenar la información de la tarjeta que esta en la parte derecha, seleccione el código del personaje y luego presione el boton consultar.
+              </p>
+              <select name="" id="codigo" class="item_formulario"></select>
+              <input type="button" class="item_formulario" id="btnConsultar" value="Consultar">
             </div>
-            <div></div>
-        </div>  
+            <div class="contenedor_tarjeta">
+                <h1>Tarjeta de personaje</h1>
+               <div class="contenedor_s">
+                    <div class="contenedor_image">
+                        <div class="fondo_circular" id="fotoPerfil"></div>
+                        <p id="codigo_personaje">id</p>
+                    </div>
+                    <div class="contenedor_descripcion">
+                        <h3>Nombre</h3>
+                        <span id="nombre_personaje">Nombre</span>
+                        <br><br>
+                        <h3>Estado</h3>
+                        <span id="estado_personaje">Nombre</span>
+                        <br><br>
+                        <h3>Genero</h3>
+                        <span id="genero_personaje">Nombre</span>
+                    </div>
+                </div>
+                <div></div>
+            </div>  
+        </div>
     </div>
 
     <footer class="w3l-footer-29-main">
@@ -163,11 +163,9 @@
             </div>
         </div>
     </footer>
-
-
-
-
-    
+    <script src="assets/js/navegacion_centralizada.js"></script>
     <script src="assets/js/rick.js"></script>
+
 </body>
+
 </html>

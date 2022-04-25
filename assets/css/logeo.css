@@ -43,7 +43,6 @@ input[type=button]:hover{
 }
 .ubicacion h1:hover{
     text-shadow: 0 0 30px #fff;
-
 }
 input[type=password],input[type=text],input[type=submit],input[type=button]{
     border-style: solid;

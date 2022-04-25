@@ -10,3 +10,12 @@ body{
     right:10px;
     z-index: 5px;
   }
+#btn_home{
+  position:fixed;
+  height: 64px;
+  width: 64px;
+  bottom:10px;
+  right:10px;
+  z-index: 5px;
+
+}
